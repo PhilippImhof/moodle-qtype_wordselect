@@ -181,5 +181,4 @@ class restore_qtype_wordselect_plugin extends restore_qtype_plugin {
         /* Create mapping (we'll use this intensively when restoring question_states. And also answerfeedback files) */
         $this->set_mapping('question_answer', $oldid, $newitemid);
     }
-
 }
